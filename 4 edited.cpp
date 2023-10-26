@@ -19,7 +19,7 @@ int main(){
     int k;
     cin >> k;
     int max = max_of_first_k(arr, n, k);
-    if (max != -1) {
+    if (k>0&&k<=n) {
         cout << max << endl;
     }
     return 0;
